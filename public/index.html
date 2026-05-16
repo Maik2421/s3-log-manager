@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Logs S3 Web Examen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Logs S3 Web App</h1>
+  <form id="logForm">
+    <label for="date">Fecha:</label>
+    <input type="date" id="date" name="date" required />
+    <label for="message">Comentario:</label>
+    <textarea id="message" name="message" required></textarea>
+    <button type="submit">Save Log</button>
+  </form>
+  <h2>Archivos en el bucket:</h2>
+  <ul id="fileList"></ul>
+  <script src="main.js"></script>
+</body>
+</html>

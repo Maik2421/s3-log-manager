@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background: #f7f7f7;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+textarea {
+  min-height: 60px;
+}
+button {
+  background: #2d8cff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+ul#fileList {
+  margin-top: 20px;
+  list-style-type: none;
+  padding-left: 0;
+}
+ul#fileList li {
+  background: #fff;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
